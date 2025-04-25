@@ -1,0 +1,43 @@
+
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    color: #fff;
+    margin: 0;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+input, button {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button {
+    background-color: #00c853;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card {
+    background-color: #212121;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.success {
+    border: 2px solid #00e676;
+}
+.fail {
+    border: 2px solid #d50000;
+}
